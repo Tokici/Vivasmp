@@ -1,0 +1,59 @@
+name: PiggyCrates
+
+main: DaPigGuy\PiggyCrates\PiggyCrates
+
+version: 3.0.1
+
+api:
+
+- 4.0.0
+
+load: POSTWORLD
+
+author: DaPigGuy Edit by Tokici
+
+softdepend:
+
+- PiggyCustomEnchants
+
+website: https://github.com/DaPigGuy/PiggyCrates/
+
+permissions:
+
+  piggycrates:
+
+    default: op
+
+    description: Allows usage of all PiggyCrates features
+
+  piggycrates.command:
+
+    default: op
+
+    description: Allow usage of all PiggyCrates commands
+
+  piggycrates.command.viva:
+
+    default: op
+
+    description: Allow usage of the /viva command
+
+  piggycrates.command.crate:
+
+    default: op
+
+    description: Allow usage of the /crate command
+
+  piggycrates.command.key:
+
+    default: op
+
+    description: Allow usage of the /key command
+
+  piggycrates.command.keyall:
+
+    default: op
+
+    description: Allow usage of the /keyall command
+
+...
